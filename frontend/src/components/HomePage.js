@@ -12,7 +12,7 @@ function HomePage() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<p>This is the homepage</p>} />
+        <Route path="/" element={<p>This is the homepage</p>} />
         <Route path="/join" element={<RoomJoinPage />} />
         <Route path="/create" element={<CreateRoomPage />} />
       </Routes>
