@@ -1,18 +1,17 @@
-import React, {Component} from "react";
-import {render} from "react-dom";
+import React from "react";
+import ReactDOM from 'react-dom';
+import HomePage from "./HomePage";
+import RoomJoinPage from "./RoomJoinPage";
+import CreateRoomPage from "./CreateRoomPage";
+const App = (props) => {
+  return (
+   <div> 
+  <HomePage />
+  </div>
 
-export default class App extends Component{
-constructor(props){
-  super(props);
-
-}
-
-render(){
-  return (<h1>Testing React Code</h1>)
-}
-
-
-}
+);
+};
 
 const appDiv = document.getElementById("app");
-render(<App />, appDiv);
+ReactDOM.render(<App name="vasilakis" />, appDiv);
+export default App;
