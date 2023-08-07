@@ -1,9 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import { Box, Button } from "@mui/material";
 function CreateRoomPage() {
-  return (
-    <div>CreateRoomPage</div>
-  )
+  defaultVotes = 2;
+  return <Box></Box>;
 }
 
-export default CreateRoomPage
+export default CreateRoomPage;
